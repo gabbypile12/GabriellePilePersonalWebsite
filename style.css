@@ -1,3 +1,295 @@
-a{
-    text-color:red;
+nav
+{
+   background-color: white;
 }
+h1,h2,h3,h4,h5,h6,p
+{
+    color:#131313;
+}
+
+.front{
+    background-color: #8c6042;
+    height:100%;
+    margin-right: auto;
+    width:100%;
+}
+@media only screen and (max-width: 340px) {
+    .lastName {
+        transform: translateX(24px);
+    }
+}
+
+.FrontInformation
+{
+    display: block;
+    font-weight: bold;
+    font-family: 'Nova Flat';
+    padding-top:20%;
+    margin-block-start: 0.70em;
+    margin-block-end: 0.70em; 
+    text-align:center; 
+
+} 
+
+@media only screen and (max-width: 1000px) {
+    .header {
+        align-items: center;
+        flex-direction: column;
+    }
+  }
+
+@media only screen and (max-width: 340px) {
+    .FrontInformation {
+        font-size:50px;
+        justify-content: center;
+        transform: translateX(-24px);
+    }
+}
+
+.header
+{
+    text-align:center;
+}
+
+.introductionimage{
+    background-color: #8c6042;
+    padding-top:5%;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+} 
+
+.about-section {
+    position: relative;
+    z-index: 2;
+    background-color: #BF9A75;
+    height:100%;
+    margin-right: auto;
+    margin-left:auto;
+    width:100%;  
+}
+
+.about-section:after {
+    background-color: #bf9975;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(-15px);
+    width: 100vw;
+    z-index: -1;
+}
+
+.mybio 
+{
+    display:block;
+    padding-left: 10%;
+    padding-right:10%; 
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+
+.skills-section
+{
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    height:100%;
+    margin-right: auto;
+    margin-left:auto;
+    width:100%; 
+    padding-bottom: 15px; 
+    padding-top:5%;
+    
+}
+
+.skills-section:after{
+    background-color: white;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(-15px);
+    width: 100vw;
+    z-index: -1;
+
+}
+
+.skills-heading
+{
+    text-align:center;
+    padding-bottom:15px;
+}
+
+.javaandpython-column
+{
+    padding:10px;
+}
+
+.javaandpython{
+    
+    background-color: #D1D1CC; 
+    padding:15px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.HTMLandCSS-column
+{
+    Padding-top:5%;
+    padding-bottom:5%;
+}
+.HTMLandCSS
+{
+    padding:15px;
+    background-color: #8c6042;
+    width: 100%;
+    position: relative;  
+}
+
+.SQLandData-column
+{
+    padding-bottom:5%;
+}
+
+.SQLandData
+{
+    padding:15px;
+    background-color:#7F8C83;
+    width: 100%;
+    position: relative; 
+}
+
+.adobe
+{
+    padding:15px;
+    background-color:#bf9975; 
+    width: 100%;
+    position: relative; 
+}
+
+.adobe-column
+{
+    Padding-top:5%;
+    padding-bottom:5%; 
+}
+
+h6
+{
+    text-align:center;
+}
+.project-section
+{
+    text-align:center;
+    padding-top:10px;
+    background-color: #7F8C83;
+    position: relative;
+    z-index: 2;
+    height:100%;
+    margin-right: auto;
+    margin-left:auto;
+    width:100%; 
+    padding-bottom: 15px; 
+    padding-top:5%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.project-section:after
+{
+    background-color: #7F8C83;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(-15px);
+    width: 100vw;
+    z-index: -1;
+}
+
+.aProject
+{
+    margin-bottom:20px;
+    border-radius: 25px;
+    padding-top:15px;
+    background-color: white;
+    text-align:center;
+}
+
+.project-heading
+{
+    text-align: center;
+}
+
+.websitePic
+{
+    max-width:50%;
+    margin-left:25%;
+    margin-bottom:15px;;
+}
+
+.movieFinderVideos
+{
+    max-width: 50%;
+}
+
+.contact-section
+{
+    background-color: #8c6042;
+    position: relative;
+    z-index: 2;
+    height:100%;
+    margin-right: auto;
+    margin-left:auto;
+    width:100%; 
+    padding-bottom: 15px; 
+    padding-top:5%;
+    text-align:center;
+
+}
+.contact-section:after
+{
+    background-color: #8c6042;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(-15px);
+    width: 100vw;
+    z-index: -1;
+
+}
+.containerForLogos
+{
+    display: flex;
+    justify-content: center;
+}
+
+.imageLogos
+{
+    height:40px;
+    width:40px;
+    margin-right:15px;
+   
+}
+
+
+
+ 
+
+
+
+
+

@@ -9,55 +9,139 @@
          <!-- Bootstrap CSS -->
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
          <link rel="stylesheet" href="style.css">
+         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+         <script src="script.js"></script>
+         
+
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
-            <a class="navbar-brand" href="#Front" style= "color: #8b4513; font-family: Monospace; font-size: 150%; ">Gabrielle Pile </a>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+          <div class = "container-fluid">
+            <a class="navbar-brand" href="#Front" style= "color: #8b4513; font-family: Courier New; font-size: 150%;; font-weight: bold ">Gabrielle Pile </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#AboutMe" style = "font-family:Monospace">About me<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#AboutMe" style = "font-family:Courier New; font-weight: bold">About me<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Skills"  style = "font-family:Monospace">Skills</a>
+                  <a class="nav-link" href="#Skills"  style = "font-family:Courier New; font-weight: bold">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Passions" style = "font-family:Monospace">Passions</a>
+                  <a class="nav-link" href="#Projects" style = "font-family:Courier New; font-weight: bold ">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Projects" style = "font-family:Monospace">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Contact" style = "font-family:Monospace">Contact</a>
+                    <a class="nav-link" href="#Contact" style = "font-family:Courier New; font-weight: bold">Contact</a>
                   </li>
               </ul>
             </div>
+
+          </div>
+            
           </nav>
-        <div class="container-fluid padding" id="Front">
-            The Front
-            <img src="images/GabbyPic.jpeg" />
-        </div>
-        <div class="container-fluid padding" id="AboutMe">
-            About me
-        </div>
-        <div class="container-fluid padding" id="Skills">
-            Skills
-        </div>
-        <div class="container-fluid padding" id="Passions">
-            Passions
-        </div>
-        <div class="container-fluid padding" id="Projects">
-            Projects
-        </div>
-        <div class="container-fluid padding" id="Contact">
-            Contact
-        </div>
         
+        <div class="container-fluid front" id="Front">
+          <div class="row welcome text-center header">
+            <div class = "col-6">
+              <h1 class = "display-4 FrontInformation" > Gabrielle  <span class = "lastName" > Pile </span></h1>
+              <h4>Computer Science Major ~ Posse Scholar ~ Creative</h4>
+            </div>
+             <div class="col-6 introductionimage">
+              <img src="images/GabbyFinalPic.png" class = "ml-auto"/> 
+            
+          </div>   
+        </div>
 
+         <div class="container-fluid about-section" id= "AboutMe">
+          <div class = "row welcome text-center">
+            <div class = "col-12 mybio">
+              <h1 class ="display-4"> About Me!</h1>
+              <h5 style= "color:#000000;font-size: 2.5rem"></h5> Hello! My name is Gabrielle Pile. I am a rising junior majoring in Computer Science with a minor in African American Studies at Brandeis University. 
+                Upon my highschool graduation in 2020, I earned the privilege of becoming a Posse Scholar. This scholarship opportunity has connected me with a strong coalition of Alumni who have been able to guide and mentor me through my college process and experience thus 
+                far. At Brandeis, I participate in many acitivies. I am a Peer Advocate and Violence Prevention Educator at the Prevention Advocacy Resource Center (PARC), I serve as a Community Advisor , as well as being a part of the board for Black Student 
+                Organization. I enjoy being active on my campus. Outside of school, I enjoy weightlighting, and being involed with social advocay work.</h5>
 
+            </div>
+          </div>
+           
+        </div>
+        <div class="container-fluid skills-section" id = "Skills">
+          <h1 class = "skills-heading">Skills</h1>
+          <div class = "row">
+            <div class = "col-lg-3 javaandpython-column"> 
+              <div class = "javaandpython">
+                <h6><b>  Java & Python </b></h6>
+                <p> I have about three years of experience both learning and using Java. I began learning Java in my senior year of high school and have countinued by taking an introdcutory class at my University, and using Java to complete my problem sets.<br/> <br/> I have been coding in python for about two years. I learned the basics of python in an introductory course in college and now use the language in order to analyze large sets of data in my other programming courses. </p>
+                
+              </div>
+            </div>
+            <div class ="col-lg-3 HTMLandCSS-column">
+              <div class="HTMLandCSS">
+                <h6><b> HTML & CSS & Javascript</b></h6>
+                <p> I have about three years of experience learning and using HTML & CSS. In college, I have taken a courses that focused on web development which refreshed my HTML,CSS, and Javascript skills. I have also learned about bootstrap and node js and used this to create projects, such as my personal website. </p>
+
+              </div>
+            </div>
+            <div class = "col-lg-3 SQLandData-column"> 
+              <div class = "SQLandData">
+                <h6><b> SQL & Data analysis</b></h6>
+                <p class = "javaparagraph"> I have about two years of experience learning about and using SQL. In college, I have taken classes that required us to use SQL for organizing and analyzing large data sets.<br/> <br/> I also have experience in analyzing large data sets using javascript and python to retrieve data from APIs. I developed and utilized this skill during my internship at Mount Sinani where I retrieved single cell RNA information from public databases in order to analyze it for the user.</p>
+              </div>
+            </div>
+            <div class = "col-lg-3 adobe-column"> 
+              <div class = "adobe">
+                <h6><b> Adobe Photo shop & Adobe Premier </b></h6>
+                <p class = "htmlcssparagraph"> I have about six months of experience learning and using Adobe Photoshop and Premier. I learned the basics of Adobe premier creating video essays for my college classes. I have also learned the basics of Adobe Photoshop from my time as an instructor at ID tech camp, where I taught game design with RoBlox Studio. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid padding project-section" id="Projects">
+            <h1 class="project-heading">Projects</h1>
+            <div class = "row">
+              <div class = "col-lg-12 aProject">
+                <h4 class = "project-heading"> Personal Website </h4>
+                <img src = "images/frontPageDesktop.png" class = "websitePic" />
+
+                <p> This summer I worked on creating a personal wesbite where I could showcase my creativity using HTML, CSS (BootStrap), and javascript. I wanted this wesbite to be used by others to learn more about my technical skills as well as the projects that I have worked on.
+                </p>
+              </div>
+              <div class = "col-lg-12 aProject">
+                <h4 class = "project-heading">Movie Finder App</h4>
+                <video src = "videos/movieFinder.mp4"  class = "movieFinderVideos" autoplay controls></video>
+                <p>In the Spring of 2022, I took a class called Fundamentals of Software Engineering. In this class for my final project I created a movie finder app and I launched it using Heruko. This app allows users to search up American movies made between the years of 1980-2010; using the year, title, and keywords specific to that movie. I created a json file with movie data, then used this file to create a MongoDB cloud database with this information. Lastly, I used javascript to get information from the database based on the users request, HTML5, and CSS in order to format my page, and lastly launched it on Heruko. </p>
+                <a href="https://gabriellepilecpa.herokuapp.com/">Link to my movieFinderApp</a>
+              </div>
+              <!-- <div class = "col-lg-12 aProject">
+                <h4 class = "project-heading"> GEOscRNAseq2Appyter</h4>
+                <img class = "geo" src = "images/Appyters.png"/>
+                <p> The GEOscRNAseq2Appyter Chrome Extension is a Google Chrome extension that creates Jupyter Notebooks that contain scRNA-seq data analysis. The Jupyter Notebooks contain interactive data visualizations and other standard methods of analysis. The purpose of the Google Chrome extension is to enable researchers to analyze the raw sequencing data provided on GEO and draw valuable conclusions from reanalysis of these datasets for their own research. I worked on the GEOscRNAseqAppyter during my internship with the Ma'ayan lab in the summer of 2021. I helped to create a feature where the google chrome extension would only pop up on the screen of GEO pages with single cell RNA sequencing data that the Appyter could analyze. I also worked on sending the information from the GEO page to the jupyter notebook.
+                </p>
+              </div> -->
+            </div>
+        </div>
+        <div class="container-fluid padding contact-section" id="Contact">
+            <h1>Contact</h1>
+            <div class = "containerForLogos">
+              <div class = "email">
+                <a href = "mailto: gabriellepile@brandeis.edu">
+                  <img src="images/gmailLogo.png" class = "imageLogos"/> 
+                </a>
+              </div>
+              <div class = "linkden">
+                <a href = "https://www.linkedin.com/in/gabrielle-pile-ba21b11b8">
+                  <img src="images/linkedinPhoto.png" class = "imageLogos"/> 
+                </a>
+              </div>
+              <div class = "resume"></div>
+              <a href = "Gabrielle Pile Resume 2022.pdf">
+                <img src="images/resume.png" class = "imageLogos"/> 
+              </a>
+            </div>
     </body>
     
 
